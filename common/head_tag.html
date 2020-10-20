@@ -1,5 +1,5 @@
 <script type="text/discourse-plugin" version="0.8">
-  api.registerConnectorClass('above-main-container', 'search-banner', {
+  api.registerConnectorClass('above-site-header', 'search-banner', {
     setupComponent(args, component) {
       var topMenuRoutes = Discourse.SiteSettings.top_menu.split('|').map(function(route) {return '/' + route});
       var homeRoute = topMenuRoutes[0];
