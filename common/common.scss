@@ -9,17 +9,18 @@ $max-width: 600px;
 }
 
 .custom-search-banner-wrap {
-  @if $background-image != "none" {
-    background-image: url($background-image);
-  } @else {
-    background: red;
-  }
-  @if $tile-background_image == "true" {
-    background-size: auto;
-  } @else {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  // @if $background-image != "none" {
+  //   background-image: url($background-image);
+  // } @else {
+  //   background: red;
+  // }
+  // @if $tile-background_image == "true" {
+  //   background-size: auto;
+  // } @else {
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  // }
+  background-color: aqua;
   box-sizing: border-box;
   position: relative;
   padding: 2.5em 0 3em;
