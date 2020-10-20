@@ -146,13 +146,19 @@
 
   {{#if show_for}}
     {{#if displaySearchBanner}}
-      <div class="custom-search-banner" >
+    <div class="top-hero">
+      <h1 id="welcome-text"></h1>
+      <form action="/search" id="search-form" >
+          <input id="welcome-input" type="text" />
+      </form>
+  </div>
+      <!-- <div class="custom-search-banner" >
         <div class="wrap custom-search-banner-wrap">
           <h1>{{theme-i18n "search_banner.headline"}}</h1>
           <p>{{theme-i18n "search_banner.subhead"}}</p>
           {{mount-widget widget="search-widget"}}
         </div>
-      </div>
+      </div> -->
     {{/if}}
 
   {{/if}}
