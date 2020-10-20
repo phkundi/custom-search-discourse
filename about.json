@@ -1,7 +1,7 @@
 {
   "name": "discourse-search-custom",
-  "about_url": "https://meta.discourse.org/t/search-banner-theme-component/122939",
-  "license_url": "https://github.com/awesomerobot/discourse-search-banner/blob/master/LICENSE",
+  "about_url": "",
+  "license_url": "",
   "component": true,
   "assets": {},
   "color_schemes": {}

@@ -149,7 +149,8 @@
     <div class="top-hero">
       <h1 id="welcome-text"></h1>
       <form action="/search" id="search-form" >
-          <input id="welcome-input" type="text" />
+        {{mount-widget widget="search-widget"}}
+          <!-- <input id="welcome-input" type="text" /> -->
       </form>
   </div>
     {{/if}}
