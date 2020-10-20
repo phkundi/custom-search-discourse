@@ -12,7 +12,7 @@ $max-width: 600px;
   @if $background-image != "none" {
     background-image: url($background-image);
   } @else {
-    background: none;
+    background: red;
   }
   @if $tile-background_image == "true" {
     background-size: auto;
